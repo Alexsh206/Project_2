@@ -10,6 +10,7 @@ GameField::GameField()
 
 void GameField::paintEvent(QPaintEvent *e)
 {
+    //Обираємо кольори елементів 
     Q_UNUSED(e)
     QBrush GameFieldBrush(QColor(141, 184, 97), Qt::SolidPattern);
     QBrush snakeBodyBrush(QColor(234, 185, 31), Qt::SolidPattern);
